@@ -1,0 +1,21 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%; /* 横幅いっぱい */
+  height: 70px; /* 高さ120px */
+  background-color: #EC715F;
+}
+
+.logo {
+  height: 70px;
+}
+
+nav {
+  font-size: 16px;
+  font-color: #FAFAFA;
+}
