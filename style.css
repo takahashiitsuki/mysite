@@ -27,6 +27,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   height: 70px;
+  text-align: right;
 }
 
 .nav-list-item {
@@ -59,11 +60,16 @@ nav {
   color: #fff; /* 文字色を白に変更 */
 }
 
-.portfolio {
+.background-color {
   width: 100%;
   background-color: #ECEFF1;
+}
+
+.portfolio {
+  width: 920px;
   padding: 90px 0;
   text-align: center;
+  margin: 0 auto;
 }
 
 .portfolio-title {
