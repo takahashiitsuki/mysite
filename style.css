@@ -58,3 +58,21 @@ nav {
   font-size: 20px;
   color: #fff; /* 文字色を白に変更 */
 }
+
+.portfolio {
+  width: 100%;
+  background-color: #ECEFF1;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
