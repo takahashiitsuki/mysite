@@ -95,3 +95,38 @@ nav {
   width: 300px;
   height: 250px;
 }
+
+.feature {
+  width: 980px;
+  padding: 90px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.feature-title {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.feature-line {
+  width: 70px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 3px solid #ec715f;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+
+.feature-item {
+  width: 320px;
+  height: auto;
+}
+
+.fa-regular {
+  text-align: center;
+}
