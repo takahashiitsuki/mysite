@@ -125,6 +125,13 @@ nav {
 .feature-item {
   width: 320px;
   height: auto;
+  display: inline-block;
+}
+
+.feature-item i {
+  display: inline-block;
+  size: 60px;
+  font-size:60px;
 }
 
 .fa-regular {
