@@ -10,7 +10,6 @@ header {
   height: 70px; /* 高さ120px */
   background-color: #EC715F;
   display: flex;
-  padding: auto;
 }
 
 nav {
@@ -91,9 +90,18 @@ nav {
   padding: 30px 0;
 }
 
+.portfolio-images {
+  width: 930px;
+  height: 510px;
+  overflow: hidden;
+  letter-spacing: -1em;
+}
+
 .portfolio-image {
   width: 300px;
   height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .feature {
@@ -101,6 +109,7 @@ nav {
   padding: 90px 0;
   text-align: center;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .feature-title {
@@ -122,10 +131,16 @@ nav {
   padding: 30px 0;
 }
 
+.feature-items {
+  width: 990px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .feature-item {
   width: 320px;
-  height: auto;
   display: inline-block;
+  margin-right: 10px;
 }
 
 .feature-item i {
@@ -136,4 +151,17 @@ nav {
 
 .fa-regular {
   text-align: center;
+}
+
+.feature-item-heading {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.feature-item-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
 }
