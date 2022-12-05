@@ -71,13 +71,13 @@ nav {
   margin: 0 auto;
 }
 
-.portfolio-title {
+.title {
   font-size: 32px;
   color: #000000;
   margin-bottom: 8px;
 }
 
-.portfolio-line {
+.line {
   width: 70px;
   text-align: center;
   margin: 0 auto;
@@ -106,23 +106,11 @@ nav {
 
 .feature {
   width: 980px;
+  height: auto;
   padding: 90px 0;
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
-}
-
-.feature-title {
-  font-size: 32px;
-  color: #000000;
-  margin-bottom: 8px;
-}
-
-.feature-line {
-  width: 70px;
-  text-align: center;
-  margin: 0 auto;
-  border-bottom: 3px solid #ec715f;
 }
 
 .feature-text {
@@ -163,5 +151,51 @@ nav {
 .feature-item-text {
   font-size: 16px;
   color: #000000;
+  text-align: left;
+}
+
+.profile {
+  width: 1024px;
+  padding: 90px 0;
+  margin: 90px auto;
+  text-align: center
+}
+
+.profile-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.profile-items {
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-item {
+  width: 512px;
+  text-align: left;
+}
+
+.icon {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border-radius:50%;
+  background-image: url("img/my-icon.jpg");
+}
+
+.profile-header {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.profile-item-text {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
   text-align: left;
 }
