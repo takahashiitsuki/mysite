@@ -240,3 +240,16 @@ nav {
   font-size:50px;
   margin-right: 20px;
 }
+
+footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 60px; /* 高さ120px */
+  background-color: #EC715F;
+  display: flex;
+}
+
+.footer-text {
+  margin: auto;
+  font-size: 16px;
+  color: #fafafa;
+}
