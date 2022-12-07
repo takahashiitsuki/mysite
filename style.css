@@ -199,3 +199,44 @@ nav {
   margin-bottom: 20px;
   text-align: left;
 }
+
+.contact {
+  width: 800px;
+  padding: 90px 0;
+  margin: 0 auto;
+  text-align: center
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #000000;
+  margin: 30px 0;
+}
+
+.contact-items {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item {
+  width: 400px;
+  text-align: left;
+}
+
+.contact-item-heading {
+  font-size: 20px;
+  margin-bottom: 5px
+}
+
+.contact-item-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-item i {
+  display: inline-block;
+  size: 50px;
+  font-size:50px;
+  margin-right: 20px;
+}
