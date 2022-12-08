@@ -253,3 +253,9 @@ footer {
   font-size: 16px;
   color: #fafafa;
 }
+
+@media screen and (max-width:768px) {
+  * {
+    width: 90%;
+  }
+}
