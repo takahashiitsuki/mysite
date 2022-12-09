@@ -22,11 +22,17 @@ nav {
   height: 70px;
 }
 
+.drawer_hidden {
+  display: none;
+}
+
+
+
 .nav-list{
   display: flex;
   justify-content: flex-end;
   height: 70px;
-  text-align: right;
+  margin-left: auto;
 }
 
 .nav-list-item {
@@ -255,7 +261,83 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-  * {
-    width: 90%;
+  
+  .header {
+    height: 50px;
+    
   }
+  
+  nav {
+    width: 90%;
+    margin: 5px auto;
+  }
+  
+  .drawer_open {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;/* 重なり順を一番上にする */
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    margin-left: auto;
+  }
+
+  .drawer_open span,
+  .drawer_open span:before,
+  .drawer_open span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: #ffffff;
+    transition: 0.5s;
+    position: absolute;
+  }
+
+  .drawer_open span:before {
+    bottom: 8px;
+  }
+
+  .drawer_open span:after {
+    top: 8px;
+  }
+
+  #drawer_input:checked ~ .drawer_open span {
+    background: rgba(255, 255, 255, 0);
+  }
+
+  #drawer_input:checked ~ .drawer_open span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+
+  #drawer_input:checked ~ .drawer_open span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  .nav_list {
+    list-style: none;
+    display: none;
+  }
+  
+  .nav_content {
+  display: none
+}
+
+  
+  #nav-drawer {
+    display:none;
+  }
+  
+}
+
+@media screen and (max-width:768px) {
+  #nav-drawer {
+     display:none;
+   }
 }
