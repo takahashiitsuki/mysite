@@ -55,7 +55,7 @@ nav {
 
 .main-visual-text {
   padding-top: 200px;
-  color: #fff; /* 文字色を白に変更 */
+  color: #fafafa; /* 文字色を白に変更 */
   font-size: 64px;
 }
 
@@ -336,6 +336,18 @@ footer {
   
   .main-visual {
     background-image: url(img/code.png);
+  }
+  
+  .main-visual-text {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 40px;
+  }
+  
+  .main-visual-text-small {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
   }
   
 }
