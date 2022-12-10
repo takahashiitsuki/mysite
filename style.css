@@ -334,6 +334,10 @@ footer {
     display:none;
   }
   
+  .main-visual {
+    background-image: url(img/code.png);
+  }
+  
 }
 
 @media screen and (max-width:768px) {
