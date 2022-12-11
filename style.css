@@ -261,17 +261,17 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-  
+
   .header {
     height: 50px;
-    
+
   }
-  
+
   nav {
     width: 90%;
     margin: 5px auto;
   }
-  
+
   .drawer_open {
     display: flex;
     height: 60px;
@@ -324,38 +324,51 @@ footer {
     list-style: none;
     display: none;
   }
-  
+
   .nav_content {
   display: none
 }
 
-  
+
   #nav-drawer {
     display:none;
   }
-  
+
   .main-visual {
     background-image: url(img/code.png);
   }
-  
+
   .main-visual-text {
     width: 90%;
     margin: 0 auto;
     font-size: 40px;
   }
-  
+
   .main-visual-text-small {
     width: 90%;
     margin: 0 auto;
     font-size: 18px;
   }
-  
-  .title {
+
+  .portfolio {
     width: 90%;
-    margin: 0 auto;
-    font-size: 32px;
   }
-  
+
+  .reduction {
+    display: none;
+  }
+
+  .portfolio-images {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-image {
+    margin: 0 auto 10px;
+  }
+
 }
 
 @media screen and (max-width:768px) {
