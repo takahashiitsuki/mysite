@@ -113,7 +113,7 @@ nav {
 .feature {
   width: 980px;
   height: auto;
-  padding: 90px 0;
+  padding: 90px 0 0;
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
@@ -367,6 +367,22 @@ footer {
 
   .portfolio-image {
     margin: 0 auto 10px;
+  }
+
+  .feature {
+    width: 90%;
+
+  }
+
+  .feature-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-item {
+    margin: 0 auto;
+    padding-bottom: 10px;
   }
 
 }
