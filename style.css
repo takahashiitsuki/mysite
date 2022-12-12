@@ -127,8 +127,6 @@ nav {
 
 .feature-items {
   width: 990px;
-  overflow: hidden;
-  white-space: nowrap;
 }
 
 .feature-item {
@@ -381,8 +379,13 @@ footer {
   }
 
   .feature-item {
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 10px;
+  }
+  
+  .feature-item-text {
+    overflow-wrap: normal;
   }
   
   .profile {
@@ -397,7 +400,23 @@ footer {
   }
   
   .profile-item {
+    width: 100%;
     margin: 0 auto 20px;
+  }
+  
+  .contact {
+    width: 90%;
+  }
+  
+  .contact-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-item {
+    width: 100%;
+    text-align: center
   }
 
 }
@@ -406,4 +425,12 @@ footer {
   #nav-drawer {
      display:none;
    }
+   
+}
+
+@media screen and (min-width:768px) {
+  .feature-items {
+    overflow: hidden;
+    white-space: nowrap;
+  }
 }
